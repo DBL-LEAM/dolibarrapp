@@ -82,11 +82,17 @@ button{
     box-sizing:border-box;
     border: none;
     border-radius: 10px;
-    background-color: #7d67ff;
+    background: linear-gradient(to right,#7d67ff, rgb(74, 74, 252));
     color: white;
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+button:hover{
+    background: linear-gradient(to right,#4933c8, #4933c8);
 }
 
 footer{
@@ -95,6 +101,7 @@ footer{
 
 footer p{
     text-align: center;
+    font-size: 14px;
 }
 
 .barre{

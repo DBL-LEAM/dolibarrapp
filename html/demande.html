@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande</title>
+    <link rel="stylesheet" href="/css/demande.css">
+</head>
+<body>
+    <div class="carte">
+    <h1>Nouvelle demande de remboursement</h1>
+    <p class ="subtitle">Remplissez les informations ci-dessous</p>
+
+    <form>
+        <div class="montant">
+            <label for="montant">Montant(€) *</label>
+            <input id="montant" type="number" placeholder="Ex: 142.5"/>
+        </div>
+
+        <div class="half">
+            <div class="date">
+                <label>Date de la dépense *</label>
+                <input type="date">
+            </div>
+
+            <div class="categorie">
+                <label>Quantité *</label>
+                <select name="quantite" id="quantite">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10<option>                    
+                </select>
+            </div>
+        </div>
+
+    
+        <div class="description">
+            <label for="description">Description*</label>
+            <input id="description" type="number" placeholder="Décrivez la nature de votre dépense..."/>
+        </div>
+
+        <div class="justificatif">
+            <label for="montant">Justificatif(facture, reçu) *</label>
+            <input id="montant" type="file" placeholder=""/>
+        </div>
+
+        <div class="boutons">
+            <button class="annuler">Retour</button>
+            <button type="submit" class="soumettre">Soumettre la demande</button>
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>
