@@ -8,14 +8,31 @@
 </head>
 <body>
     <div class="carte">
-    <h1>Nouvelle demande de remboursement</h1>
+    <h1>Ma demande de remboursement</h1>
     <p class ="subtitle">Remplissez les informations ci-dessous</p>
 
     <form>
-        <div class="montant">
-            <label for="montant">Montant(€) *</label>
+        <div class="montantn">
+            <label for="montant">Montant(net) *</label>
             <input id="montant" type="number" placeholder="Ex: 142.5"/>
         </div>
+
+        <div class="montantb">
+            <label for="montantb">Montant(tax.inc) *</label>
+            <input id="montantb" type="number" placeholder="Ex: 142.5"/>
+        </div>
+
+        <div class="taxes">
+                <label>Taxes de vente *</label>
+                <select name="taxes" id="taxes">
+                    <option value="">0%</option>
+                    <option value="">2.1%</option>
+                    <option value="">5.5%</option>
+                    <option value="">10%</option>
+                    <option value="">20%</option>            
+                </select>
+            </div>
+
 
         <div class="half">
             <div class="date">
@@ -35,7 +52,7 @@
                     <option value="">7</option>
                     <option value="">8</option>
                     <option value="">9</option>
-                    <option value="">10<option>                    
+                    <option value="">10<option>            
                 </select>
             </div>
         </div>
@@ -43,7 +60,7 @@
     
         <div class="description">
             <label for="description">Description*</label>
-            <input id="description" type="number" placeholder="Décrivez la nature de votre dépense..."/>
+            <input id="description" type="text" placeholder="Décrivez la nature de votre dépense..."/>
         </div>
 
         <div class="justificatif">

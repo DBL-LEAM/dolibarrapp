@@ -1,0 +1,60 @@
+body{
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+
+.mainpage{
+    border: 1px solid grey;
+}
+.barre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: #0B1D51;
+    color: aliceblue;
+    padding:0 20px ;
+    margin-bottom: 25px;
+}
+
+
+.logout{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    height: 20px;
+    border: none;
+    border-radius: 9px;
+    background-color: #1b3279;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.logout:hover{
+    background-color: #2c458e;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 9px;
+}
+
+.creation{
+    display: block;
+    border: none;
+    text-decoration: none;
+    border: none;
+    background-color: blueviolet;
+    padding:10px;
+}
